@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday My Love ❤️</title>
+
+<style>
+body {
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+  background:black;
+  color:white;
+  overflow-x:hidden;
+}
+
+.page {
+  display:none;
+  min-height:100vh;
+  padding:30px;
+  text-align:center;
+}
+
+.active {
+  display:block;
+}
+
+h1, h2 {
+  color:pink;
+}
+
+button {
+  padding:12px 30px;
+  background:pink;
+  color:black;
+  border:none;
+  border-radius:20px;
+  font-size:18px;
+  cursor:pointer;
+  margin:20px;
+}
+img {
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:15px;
+  border:3px solid pink;
+  margin:10px;
+  cursor: pointer;               /* 👈 hand pointer */
+  transition: 0.4s;              /* smooth animation */
+}
+
+img:hover {
+  transform: scale(1.15);        /* 👈 zoom effect */
+  box-shadow: 0 0 25px hotpink;   /* 👈 glow */
+  border-color: white;
+}
+
+
+.gallery {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+/* Hearts Animation */
+.heart {
+  position:fixed;
+  bottom:-20px;
+  font-size:20px;
+  color:pink;
+  animation:float 5s linear infinite;
+}
+
+@keyframes float {
+  0% {transform:translateY(0); opacity:1;}
+  100% {transform:translateY(-800px); opacity:0;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- Page 1 -->
+<div class="page active" id="p1">
+<h1>🎉 Happy Birthday My Love 🎉</h1>
+<h2>You are the best thing in my life ❤️</h2>
+<button onclick="next(2)">Next ➡</button>
+</div>
+
+<!-- Page 2 -->
+<div class="page" id="p2">
+<h2>Our Memories 💕</h2>
+<div class="gallery">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.04.jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.08.jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.09 (1).jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.09.jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.10 (1).jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.10.jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.11 (1).jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.11.jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.12 (1).jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.12.jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.14.jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.15.jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.16 (1).jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.16.jpeg">
+<img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.40.jpeg">
+</div>
+<button onclick="next(3)">Next ➡</button>
+</div>
+
+<!-- Page 3 -->
+<div class="page" id="p3">
+<h2>Love Games-quiz❤️ </h2>
+<p>1️⃣ Guess my favorite thing about you 😘</p>
+<p>2️⃣  3 reasons i love you 💌</p>
+<p>3️⃣ this is our cutest selfie📸</p>
+<p>4️⃣ the promise i make 😘</p>
+<p>5️⃣ this is my dream with you 💍</p>
+<button onclick="next(4)">Next ➡</button>
+</div>
+
+<div class="page" id="p4">
+<h2>Love Games-answers ❤️</h2>
+<p>1️⃣ your smile 😘</p><hr>
+<p>2️⃣ <ul>
+    <li>your are my healer💌</li>
+    <li>you are my strength😘</li>
+    <li>when i'll lose you definity i'll miss my self😘</li>
+</ul> 
+</p><hr>
+<p>3️⃣ <img src="C:\Users\THARMI\OneDrive\Desktop\bday\WhatsApp Image 2026-01-11 at 18.51.10 (1).jpeg"> 📸</p>
+<hr><p>4️⃣ <li>“I will never leave you.” ❤️</li> 
+    <li>“لن أتركك أبداً”</li>😘</p><hr>
+<p>5️⃣“I will work hard, earn well, and build a beautiful life for us —
+a home of our own, a car, a bike, our parents’ blessings, a lovely wedding,
+two cute pets 🐾, two sweet kids 👨‍👩‍👧‍👦, and a happy life with you forever ❤️🏡🚗💍✨”
+  💍</p><hr>
+<button onclick="next(5)">Next ➡</button>
+</div>
+
+<!-- Page 4 -->
+<div class="page" id="p5">
+<h1>My Birthday Wish for You 🎂</h1>
+<p style="font-size:20px;color:white;">
+
+🎂 Happy Birthday My Love ❤️
+
+On your special day, I just want you to know how deeply you mean to me.
+You are my smile, my strength, my happiness, and my forever.
+Every moment with you feels like a beautiful dream, and I thank the universe every day for bringing you into my life ✨
+
+May this birthday bring you endless joy, success, health, and all the love your heart can hold. I promise to stand by you, support you, and love you in every season of life 💕
+
+And today, I send you 1000 I Love You’s
+
+I love you in the morning ☀️
+I love you at night 🌙
+I love you when you smile 😊
+I love you when you laugh 😍
+I love you when you’re strong 💪
+I love you when you’re tired 🤍
+I love you in every mood 💗
+I love you in every moment 💞
+I love you in every heartbeat ❤️
+
+I love you today…
+I love you tomorrow…
+I love you forever… ♾️
+
+So here it is again, louder and truer than ever:
+
+I love you… I love you… I love you… a thousand times and more 💖💖💖
+
+Happy Birthday, my everything 🎉🎂💕
+
+</p>
+<button onclick="next(6)">Next ➡</button>
+</div>
+
+<!-- Page 5 -->
+<div class="page" id="p6">
+<h2>Scan My Love QR ❤️</h2>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data= 💛Happy birthday mah
+god bless you in your every seconds always im with you And even then, it still wouldn’t be enough to describe how much you mean to me 💕
+love you mah
+-jasminatha💖
+">
+<p>Scan this QR to see my love 💖</p>
+</div>
+
+<script>
+function next(n){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById("p"+n).classList.add("active");
+}
+
+/* Hearts */
+setInterval(()=>{
+  let h = document.createElement("div");
+  h.innerHTML="❤️";
+  h.className="heart";
+  h.style.left=Math.random()*window.innerWidth+"px";
+  document.body.appendChild(h);
+  setTimeout(()=>h.remove(),5000);
+},300);
+</script>
+
+</body>
+</html>
